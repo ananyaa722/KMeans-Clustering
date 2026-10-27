@@ -9,7 +9,7 @@ from sklearn.metrics import silhouette_score
 from sklearn.cluster import KMeans, DBSCAN, AgglomerativeClustering
 from sklearn.metrics import silhouette_score
 from sklearn.decomposition import PCA
-df = pd.read_csv("/content/Mall_Customers.csv")
+df = pd.read_csv("Mall_Customers.csv")
 print(df.shape)
 df.head()
 print(df.info())
